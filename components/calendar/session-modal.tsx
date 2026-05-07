@@ -85,7 +85,7 @@ export default function SessionModal({
 
            <div>
              <label className="text-[10px] text-zinc-500 uppercase font-bold">Procedimento / Tipo</label>
-             <input required value={formData.procedure} onChange={e => setFormData({...formData, procedure: e.target.value})} type="text" className="w-full bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-sm mt-1 focus:outline-none focus:ring-1 focus:ring-indigo-500" placeholder="Ex: Psicoterapia, Nutrição" />
+             <input required value={formData.procedure} onChange={e => setFormData({...formData, procedure: e.target.value})} type="text" className="w-full bg-zinc-950 border border-zinc-800 rounded px-3 py-2 text-sm mt-1 focus:outline-none focus:ring-1 focus:ring-indigo-500" placeholder="Ex: Mesa Radionica, Floral" />
            </div>
 
            <div className="grid grid-cols-2 gap-4">
