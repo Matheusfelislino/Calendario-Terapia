@@ -6,7 +6,7 @@ import { Toaster } from "sonner";
 const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 export const metadata: Metadata = {
-  title: 'SessionFlow - Agenda Profissional',
+  title: 'Calendario Terapia - Agenda Profissional',
   description: 'Professional calendar and financial management application.',
 };
 

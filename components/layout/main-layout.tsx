@@ -40,7 +40,7 @@ export default function MainLayout({ children }: { children: React.ReactNode }) 
             <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" ry="2"/><line x1="16" x2="16" y1="2" y2="6"/><line x1="8" x2="8" y1="2" y2="6"/><line x1="3" x2="21" y1="10" y2="10"/></svg>
             </div>
-            <span className="font-bold text-xl tracking-tight">SessionFlow</span>
+            <span className="font-bold text-xl tracking-tight">Calendario Terapia</span>
           </div>
           
           <button onClick={() => setIsModalOpen(true)} className="w-full py-2.5 px-4 bg-indigo-600 hover:bg-indigo-500 rounded-md text-sm font-medium flex items-center justify-center gap-2 mb-8 transition-colors shadow-lg shadow-indigo-900/20">
